@@ -11,7 +11,7 @@ const skillGroups = [
 export default function About({ data }) {
   const name = data?.name || "Muslim Uddin MK";
   const bio = data?.bio || "Full Stack Developer crafting premium digital experiences.";
-  const avatarUrl = data?.avatarUrl || "";
+  const avatarUrl = data?.avatarUrl || "https://i.ibb.co.com/jknN9b0D/sfsf.png";
 
   return (
     <section id="about" className="py-32 relative overflow-hidden">

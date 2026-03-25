@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { connectDB } from "@/lib/mongodb";
 import Experience from "@/models/Experience";
 import { serialize } from "@/lib/utils";

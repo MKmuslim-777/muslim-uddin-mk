@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { connectDB } from "@/lib/mongodb";
 import Hero from "@/models/Hero";
 import { serialize } from "@/lib/utils";

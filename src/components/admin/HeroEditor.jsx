@@ -7,7 +7,7 @@ export default function HeroEditor({ data }) {
     name: data?.name || "Muslim Uddin MK",
     titles: (data?.titles || ["Full Stack Developer", "Mk-777"]).join(", "),
     bio: data?.bio || "",
-    avatarUrl: data?.avatarUrl || "",
+    avatarUrl: data?.avatarUrl || "https://i.ibb.co.com/jknN9b0D/sfsf.png",
     resumeUrl: data?.resumeUrl || "",
     availableForWork: data?.availableForWork !== false,
     github: data?.socialLinks?.github || "",
